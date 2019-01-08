@@ -1,0 +1,4 @@
+class Saldos{
+	String procedencia;
+	Double valor;
+}
