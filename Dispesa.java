@@ -1,10 +1,10 @@
 import java.util.*;
 
-public class Saldos{
-	
+public class Dispesa{
+
 	public Faz F;
 
-	public Saldos() {
+	public Dispesa() {
 		
 		this.F = new Faz();
 	}
@@ -21,13 +21,12 @@ public class Saldos{
 	public void get(){
 		//Double sum = 0.0d ;
 
-		//F.tab(linkedList ,linkedList2);
+		F.tab(LinkedList<String> linkedList);
 
 		/*for(int i = 0 ; i<linkedList.size();i++){
 			sum += linkedList2.get(i);
-			System.out.println("Rendas \n ");
+			System.out.println("Dispesa \n ");
 			System.out.println("Procedencia : "+linkedList.get(i)+"\t Valor : "+linkedList2.get(i));
 		}*/
 	}
 }
-//Colocar valores em list.utill ou arraylist
